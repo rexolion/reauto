@@ -6,7 +6,7 @@ class Divider extends Component {
   }
   render () {
     return (
-      <div class={`Divider-${this.props.size}`} />
+      <div class={`Divider_${this.props.size}`} />
     )
   }
 }
