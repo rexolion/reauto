@@ -1,0 +1,127 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background: #FAFAFA;
+	font-family: Montserrat,'Helvetica Neue', arial, sans-serif;
+	font-weight: 400;
+	color: #444;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin:0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#app {
+	height: 100%;
+}
+
+/* HERO */
+.Hero {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+	background-color: #222;
+}
+/* HEROHEADER */
+.Hero-header {
+	height: 87px;
+	z-index: 10;
+	width: 100%;
+}
+.Hero-header-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+.Hero-header-item-container{
+	height: 100%;
+	display: flex;
+	width: 700px;
+	max-width: 750px;
+	justify-content: space-between;
+	align-items: center;
+}
+.Hero-header-item {
+	color: #fff;
+	font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+}
+.Hero-image img{
+	position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    opacity: .6;
+}
+.Logo {
+	font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 30px;
+}
+
+/* HEADERTEXT */
+.Hero-text {
+	z-index: 10;
+	height: 70vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-self: flex-start;
+	margin-left: 10vw;
+	width: 500px;
+}
+.Hero-text-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	color: #fff;
+
+}
+.Hero-text-heading {
+	font-style: normal;
+font-weight: normal;
+font-size: 70px;
+line-height: 70px;
+margin-bottom: 15px;
+}
+.Hero-text-subheading {
+
+	font-style: normal;
+	font-weight: 300;
+	margin-bottom: 40px;
+	font-size: 44px;
+	line-height: 54px;
+}
+.Hero-text-button {
+	width: 225px;
+	color: #fff;
+height: 55.06px;
+background-color: transparent;
+border: solid 2px #fff;
+font-weight: 600;
+font-size: 17px;
+border-radius: 5px;
+}
