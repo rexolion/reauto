@@ -160,7 +160,7 @@ p {
 
 .Work-text {
     display: flex;
-	width: 50%;
+    width: 50%;
     align-items: center;
     justify-content: center;
 }
@@ -174,8 +174,8 @@ p {
 }
 
 .Work-image {
-	width: 50%;
-	background-color: #222;
+    width: 50%;
+    background-color: #222;
     height: 100%;
 
 }
@@ -183,7 +183,22 @@ p {
 .Work-image img {
     width: 100%;
     height: 100%;
-	opacity: .5;
+    opacity: .5;
+    object-fit: cover;
+}
+
+.Work-text-heading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.Work-text-para {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #474747;
 }
 
 /* WORKSEMI */
@@ -210,13 +225,29 @@ p {
 
 .WorkSemi-image {
     width: 50%;
-    height:100%;
+    height: 100%;
     background-color: #222;
 }
+
 .WorkSemi-image img {
     height: 100%;
     opacity: .5;
+    object-fit: cover;
     width: 100%;
+}
+
+.WorkSemi-text-para {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #474747;
+}
+
+.WorkSemi-text-heading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 15px;
 }
 
 /* CONTACTPARA */
@@ -237,8 +268,129 @@ p {
 
 .ContactPara-heading {
     white-space: nowrap;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 15px;
 }
 
 .ContactPara-para {
     width: 460px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #474747;
+}
+
+
+/* GEO */
+.Geo {
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    margin-bottom: -50px;
+    z-index: 10;
+    justify-content: center;
+}
+
+.Geo-block {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-bottom: -120px;
+    border-radius: 15px;
+}
+
+.Geo-block-image {
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: #222;
+
+}
+
+.Geo-block-image:hover img {
+    opacity: .3;
+}
+
+.Geo-block-image img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    transition: all 1s;
+    border-radius: 15px;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    opacity: .5;
+}
+
+.Geo-block-heading {
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    position: absolute;
+}
+
+/* FOOTER */
+.Footer {
+    height: 460px;
+    background-color: #2B2B2B;
+    display: flex;
+    color: #fff;
+}
+
+.Footer-left {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.Footer-left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.Footer-right {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.Footer-right-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Footer-left-para {
+    width: 355px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.Footer-left-heading {
+    margin-bottom: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.Footer-left-copy {
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
 }

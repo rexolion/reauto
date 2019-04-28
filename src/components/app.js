@@ -4,6 +4,8 @@ import Divider from './Divider/divider'
 import Work from './Work/work'
 import WorkSemi from './WorkSemi/workSemi'
 import ContactPara from './ContactPara/contactPara'
+import Geo from './Geo/geo'
+import Footer from './Footer/footer'
 
 export default class App extends Component {
   render () {
@@ -14,6 +16,8 @@ export default class App extends Component {
         <Work />
         <WorkSemi />
         <ContactPara />
+        <Geo />
+        <Footer />
       </div>
     )
   }
